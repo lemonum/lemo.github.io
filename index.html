@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Сайты для предпринимателей">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Купите сайт для своего бизнеса.">
+    <title>Сайты для предпринимателей</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/fontello-embedded.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="main">
+       <div class="main-overlay"></div>
+        <div class="wrapper">
+          <div class="main-header">
+            <h1>Template creative</h1>
+            <div class="main-line"></div>
+            <p>Разработка сайтов для предпринимателей</p>
+          </div>
+        </div>
+        <a href="#services" class="main-down slowly"><i class="icon-down"></i></a>
+      </div>
+      
+      <div class="services" id="services">
+        <div class="wrapper">
+            <div class="title-services"><p>Что мы можем Вам предложить</p></div>
+            
+            <div class="item-services col-md-3">
+              <div class="basic-services">
+                <div class="icon"><i class="icon-tools"></i></div>
+                <div class="h3"><h3>Разработку сайтов</h3></div>
+                <div class="description_services">
+                  <p>Мы создаем любые сайты без каких-либо ограничений.</p>
+                </div>
+              </div>
+
+              <div class="diversity-services">
+                <div class="divetsity-items">
+                  <a href="#"><i class="icon-ok"></i>Создание Landing Page</a>
+                </div>
+                <div class="divetsity-items">
+                  <a href="#"><i class="icon-ok"></i>Создание Корпоративных сайтов</a>
+                </div>
+                <div class="divetsity-items">
+                  <a href="#"><i class="icon-ok"></i>Создание Сайта для компании</a>
+                </div>
+                <div class="divetsity-items">
+                  <a href="#"><i class="icon-ok"></i>Разработка интернет-магазинов</a>
+                </div>
+              </div>
+            </div>
+          <div class="item-services col-md-3">
+            <div class="basic-services">
+              <div class="icon"><i class="icon-briefcase"></i></div>
+              <div class="h3"><h3>Готовые темы</h3></div>
+              <div class="description_services">
+                <p>Темы с готовым функционалом, которые Вы можете использовать сразу после установки их на сайт.</p>
+              </div>
+            </div>
+            <div class="diversity-services">
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="item-services col-md-3">
+            <div class="basic-services">
+              <div class="icon"><i class="icon-desktop"></i></div>
+              <div class="h3"><h3>Дизайн сайтов</h3></div>
+              <div class="description_services">
+                <p>Создание макета и логотипов для вашего сайта.</p>
+              </div>
+            </div>
+
+            <div class="diversity-services">
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>Отрисовка макета сайта</a>
+              </div>
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>Редизайн сайта</a>
+              </div>
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>Создание логотипа</a>
+              </div>
+            </div>
+          </div>
+          <div class="item-services col-md-3">
+            <div class="basic-services">
+              <div class="icon"><i class="icon-chart-pie"></i></div>
+                <div class="h3"><h3>Интернет-маркетинг</h3></div>
+                <div class="description_services">
+                  <p>Настраиваем и обеспечиваем стабильный поток клиентов для вашего бизнеса.</p>
+                </div>
+              </div>
+
+              <div class="diversity-services">
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>Комплексное продвижение</a>
+              </div>
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>SEO-продвижение</a>
+              </div>
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>Продвижение в социальных сетях</a>
+              </div>
+              <div class="divetsity-items">
+                <a href="#"><i class="icon-ok"></i>Написание текстов</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //навигация - плавный скроллинг к якорю
+        $(".slowly").on("click", function(event){
+          //отменяет страндартную обработку нажатия по ссылке
+          event.preventDefault();
+          //забираем идентификатор блока с арибтом href
+          var id = $(this).attr('href'),
+          //узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+          //анимируем переходна расстоянии - top за 800 мс
+          $('body,html').animate({scrollTop: top}, 800);
+        });
+      });
+    </script>    
+  </body>
+</html>
